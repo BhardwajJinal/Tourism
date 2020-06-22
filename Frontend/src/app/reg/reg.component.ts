@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,20 +6,19 @@ import { Router } from '@angular/router';
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent implements OnInit {
+export class RegComponent implements OnInit {
 
   nameProp;
   emailProp;
   passwordProp;
-  constructor(private ds:DataService, private router:Router) { }
 
-  ngOnInit(): void {
-  }
+      ngOnInit(): void {
+      }
 
-  register(form) {
-    console.log(form.value);
-}
-      })
+      register(form) {
+          console.log(form.value);
+      }
+ }
   
 
 
