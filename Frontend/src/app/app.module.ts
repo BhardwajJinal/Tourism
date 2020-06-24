@@ -3,24 +3,30 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { RegComponent } from './reg/reg.component';
-import { LoginComponent } from './login/login.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { RoomComponent } from './room/room.component';
+import { RoomdetailsComponent } from './roomdetails/roomdetails.component';
+import { WebsitecomponentComponent } from './websitecomponent/websitecomponent.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
+    AboutComponent,
+    BlogComponent,
+    BlogdetailsComponent,
+    ContactComponent,
     HomeComponent,
-    RegComponent,
-    LoginComponent,
-    GalleryComponent,
-    ContactComponent
+    RoomComponent,
+    RoomdetailsComponent,
+    WebsitecomponentComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
