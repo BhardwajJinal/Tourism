@@ -4,8 +4,11 @@ const cors = require('cors');
 const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectId;
 
+// var dbName = "tourdb"
+// var client = new MongoClient('mongodb+srv://admin:admin@cluster0-h4v6l.mongodb.net/dbname?retryWrites=true&w=majority', { useNewUrlParser: true });
+
 var dbName = "tourdb"
-var client = new MongoClient('mongodb+srv://admin:admin@cluster0-h4v6l.mongodb.net/dbname?retryWrites=true&w=majority', { useNewUrlParser: true });
+var client = new MongoClient('mongodb+srv://jinal:jinal1234@cluster0-ifjrp.mongodb.net/tourdb?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 
 
